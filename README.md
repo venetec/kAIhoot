@@ -41,8 +41,8 @@ Most Kahoot tools only handle basic multiple-choice. Some need the Quiz ID befor
 | No Quiz ID needed | ✅ | ✅ | ❌ |
 | BYO API key (no paywall) | ✅ | ❌ | ❌ |
 | GPT-5 support | ✅ | ❌ | ❌ |
-| Answer delay (stealth) | ✅ | ❌ | ✅ |
-| Silent mode | ✅ | ❌ | ❌ |
+| Answer delay (stealth) | ✅ | ✅ | ✅ |
+| Silent mode | ✅ | ✅ | ❌ |
 | Free & open source | ✅ | ❌ | ❌ |
 
 ---
