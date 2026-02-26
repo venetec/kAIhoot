@@ -15,7 +15,7 @@
 
 **No quiz ID needed · No paywall · No server · BYO API key · Works on any live game**
 
-> ⚠️ **Requires the host to have "Show questions & answers on players' devices" enabled in Kahoot settings.** This is on by default for most games. If the host disables it, the extension has no question data to work with.
+> ⚠️ **Requires the host to have "Show questions & answers on players devices" enabled in Kahoot settings.** This is on by default for most games. If the host disables it, the extension has no question data to work with.
 
 </div>
 
