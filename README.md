@@ -21,7 +21,7 @@
 
 Most Kahoot tools only handle basic multiple-choice. Some need the Quiz ID beforehand. Others are paywalled or use a shared server that gets rate-limited.
 
-kAIhoot works on **every** question type Kahoot offers, answers in real-time during live games, and runs entirely on your own OpenAI key. No middleman, no limits, no accounts.
+kAIhoot works on **every** question type Kahoot offers, answers in real-time during live games, and runs entirely on your own OpenAI key. There's no middleman and no account to create.
 
 | Feature | kAIhoot | QuizGPT | KahootGPT |
 |---|:---:|:---:|:---:|
@@ -37,8 +37,8 @@ kAIhoot works on **every** question type Kahoot offers, answers in real-time dur
 | No Quiz ID needed | ✅ | ✅ | ❌ |
 | Bring your own API key | ✅ | ❌ | ❌ |
 | GPT-5 support | ✅ | ❌ | ❌ |
-| Answer delay (stealth) | ✅ | ✅ | ✅ |
-| Silent mode | ✅ | ✅ | ✅ |
+| Answer delay (stealth) | ✅ | ❌ | ✅ |
+| Silent mode | ✅ | ❌ | ❌ |
 | Free & open source | ✅ | ❌ | ❌ |
 
 ## 🧠 Supported Question Types
@@ -188,7 +188,7 @@ A typical 20-question game on `gpt-5-mini` costs about $0.01-0.03. Pin-it questi
 
 ## 🧪 Tested With
 
-Standard quiz (4-choice), true/false, multi-select (2-4 correct), pin-it with world maps and custom images, jumble (3-8 tiles), slider with numeric ranges, open-ended with character limits, image-based answer choices, mixed-type quizzes, and surveys/polls (auto-skipped since they're non-scored).
+Standard quiz (4-choice), true/false, multi-select (2-4 correct), pin-it with world maps and custom images, jumble (3-8 tiles), slider with numeric ranges, open-ended with character limits, and image-based answer choices. Also works with mixed-type quizzes. Surveys and polls are auto-skipped since they're non-scored.
 
 ## 🤝 Credits
 
