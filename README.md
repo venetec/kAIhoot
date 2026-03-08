@@ -112,15 +112,15 @@ Generates a short answer within the character limit, types it character-by-chara
 ┌─────────────────────────────────────────────────────┐
 │  Kahoot.it (Browser Tab)                            │
 │                                                     │
-│  ┌─────────────┐     ┌──────────────┐              │
-│  │ injected.js │◄───►│  Kahoot WS   │              │
-│  │ (page ctx)  │     │  Server      │              │
-│  └──────┬──────┘     └──────────────┘              │
+│  ┌─────────────┐     ┌──────────────┐               │
+│  │ injected.js │◄───►│  Kahoot WS   │               │
+│  │ (page ctx)  │     │  Server      │               │
+│  └──────┬──────┘     └──────────────┘               │
 │         │ CustomEvents                              │
-│  ┌──────▼──────┐                                   │
-│  │ content.js  │  DOM manipulation, status UI,     │
-│  │ (content)   │  answer delay, pin/jumble/slider  │
-│  └──────┬──────┘                                   │
+│  ┌──────▼──────┐                                    │
+│  │ content.js  │  DOM manipulation, status UI,      │
+│  │ (content)   │  answer delay, pin/jumble/slider   │
+│  └──────┬──────┘                                    │
 │         │ chrome.runtime messages                   │
 └─────────┼───────────────────────────────────────────┘
           │
@@ -128,10 +128,10 @@ Generates a short answer within the character limit, types it character-by-chara
 │  autoresponder.js (Service Worker)                  │
 │  Routes questions to the right handler              │
 │         │                                           │
-│  ┌──────▼──────┐     ┌──────────────┐              │
-│  │  openai.js  │────►│  OpenAI API  │              │
-│  │             │◄────│              │              │
-│  └─────────────┘     └──────────────┘              │
+│  ┌──────▼──────┐     ┌──────────────┐               │
+│  │  openai.js  │────►│  OpenAI API  │               │
+│  │             │◄────│              │               │
+│  └─────────────┘     └──────────────┘               │
 └─────────────────────────────────────────────────────┘
 ```
 
