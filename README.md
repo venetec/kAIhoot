@@ -19,7 +19,7 @@
 
 ## 📑 Table of Contents
 
-| | |
+|---|---|
 | [⚡ What Makes This Different](#-what-makes-this-different) | [🏗️ How It Works](#️-how-it-works) |
 | [🧠 Supported Question Types](#-supported-question-types) | [🔒 Privacy](#-privacy) |
 | [🛠️ Installation](#️-installation) | [💰 API Cost](#-api-cost) |
