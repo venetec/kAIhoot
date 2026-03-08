@@ -1,21 +1,21 @@
 <div align="center">
 
-# 🤖 kaBot
+# 🤖 kAIhoot
 
 ### AI-Powered Kahoot Auto-Answer Chrome Extension
 
 **The most complete Kahoot AI assistant — supporting every question type, including ones no other tool can handle.**
 
-[![Version](https://img.shields.io/badge/Version-3.4.0-blueviolet?style=for-the-badge)](https://github.com/Gavri-dev/kaBot/releases)
+[![Version](https://img.shields.io/badge/Version-3.4.0-blueviolet?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Chrome MV3](https://img.shields.io/badge/Chrome-Manifest_V3-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
-[![OpenAI](https://img.shields.io/badge/Powered_by-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://platform.openai.com)
+[![Chrome MV3](https://img.shields.io/badge/Chrome-Manifest_V3-blue?style=for-the-badge&logo=googlechrome&logoColor=white)]()
+[![OpenAI](https://img.shields.io/badge/Powered_by-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)]()
 
 ---
 
 **No quiz ID needed · No paywall · No server · BYO API key · Works on any live game**
 
-> ⚠️ **Requires the host to have "Show questions & answers on players devices" enabled in Kahoot settings.** This is on by default for most games. If the host disables it, the extension has no question data to work with.
+> ⚠️ **Requires the host to have "Show questions & answers on players' devices" enabled in Kahoot settings.** This is on by default for most games. If the host disables it, the extension has no question data to work with.
 
 </div>
 
@@ -25,24 +25,24 @@
 
 Most Kahoot tools only handle basic multiple-choice. Some need the Quiz ID beforehand. Others hide behind a paywall or shared server that gets rate-limited.
 
-**kaBot works on every question type Kahoot offers**, answers in real-time during live games, and runs entirely on your own OpenAI key — no middleman, no limits, no accounts.
+**kAIhoot works on every question type Kahoot offers**, answers in real-time during live games, and runs entirely on your own OpenAI key — no middleman, no limits, no accounts.
 
-| Feature | kaBot | QuizGPT | KahootGPT |
+| Feature | kAIhoot | QuizGPT | KahootGPT |
 |---|:---:|:---:|:---:|
 | Multiple Choice | ✅ | ✅ | ✅ |
 | True/False | ✅ | ✅ | ✅ |
 | Multi-Select | ✅ | ✅ | ✅ |
-| Pin-It (Map/Image)🔥 | ✅  | ❌ | ❌ |
-| Jumble (Reorder)🔥 | ✅  | ❌ | ❌ |
-| Slider (Numeric)🔥 | ✅  | ❌ | ❌ |
-| Open-Ended (Type)🔥 | ✅  | ❌ | ❌ |
-| Vision AI for images🔥 | ✅ | ❌ | ❌ |
+| Pin-It (Map/Image) | ✅ 🔥 | ❌ | ❌ |
+| Jumble (Reorder) | ✅ 🔥 | ❌ | ❌ |
+| Slider (Numeric) | ✅ 🔥 | ❌ | ❌ |
+| Open-Ended (Type) | ✅ 🔥 | ❌ | ❌ |
+| Vision AI for images | ✅ | ❌ | ❌ |
 | Works on custom quizzes | ✅ | ✅ | ❌ |
 | No Quiz ID needed | ✅ | ✅ | ❌ |
 | BYO API key (no paywall) | ✅ | ❌ | ❌ |
 | GPT-5 support | ✅ | ❌ | ❌ |
-| Answer delay (stealth) | ✅ | ✅ | ✅ |
-| Silent mode | ✅ | ✅ | ❌ |
+| Answer delay (stealth) | ✅ | ❌ | ✅ |
+| Silent mode | ✅ | ❌ | ❌ |
 | Free & open source | ✅ | ❌ | ❌ |
 
 ---
@@ -75,14 +75,14 @@ Generates a short answer within the character limit, types it character-by-chara
 
 1. **Download** — Clone or download this repository
    ```bash
-   git clone https://github.com/Gavri-dev/kaBot.git
+   git clone https://github.com/Gavri-dev/kAIhoot.git
    ```
 
 2. **Load in Chrome**
    - Navigate to `chrome://extensions/`
    - Enable **Developer Mode** (top right toggle)
    - Click **Load unpacked**
-   - Select the `kaBot` folder
+   - Select the `kAIhoot` folder
 
 3. **Add your API key**
    - Click the extension icon in Chrome
@@ -112,15 +112,15 @@ Generates a short answer within the character limit, types it character-by-chara
 ┌─────────────────────────────────────────────────────┐
 │  Kahoot.it (Browser Tab)                            │
 │                                                     │
-│  ┌─────────────┐     ┌──────────────┐               │
-│  │ injected.js │◄───►│  Kahoot WS   │               │
-│  │ (page ctx)  │     │  Server      │               │
-│  └──────┬──────┘     └──────────────┘               │
+│  ┌─────────────┐     ┌──────────────┐              │
+│  │ injected.js │◄───►│  Kahoot WS   │              │
+│  │ (page ctx)  │     │  Server      │              │
+│  └──────┬──────┘     └──────────────┘              │
 │         │ CustomEvents                              │
-│  ┌──────▼──────┐                                    │
-│  │ content.js  │  DOM manipulation, status UI,      │
-│  │ (content)   │  answer delay, pin/jumble/slider   │
-│  └──────┬──────┘                                    │
+│  ┌──────▼──────┐                                   │
+│  │ content.js  │  DOM manipulation, status UI,     │
+│  │ (content)   │  answer delay, pin/jumble/slider  │
+│  └──────┬──────┘                                   │
 │         │ chrome.runtime messages                   │
 └─────────┼───────────────────────────────────────────┘
           │
@@ -128,10 +128,10 @@ Generates a short answer within the character limit, types it character-by-chara
 │  autoresponder.js (Service Worker)                  │
 │  Routes questions to the right handler              │
 │         │                                           │
-│  ┌──────▼──────┐     ┌──────────────┐               │
-│  │  openai.js  │────►│  OpenAI API  │               │
-│  │             │◄────│              │               │
-│  └─────────────┘     └──────────────┘               │
+│  ┌──────▼──────┐     ┌──────────────┐              │
+│  │  openai.js  │────►│  OpenAI API  │              │
+│  │             │◄────│              │              │
+│  └─────────────┘     └──────────────┘              │
 └─────────────────────────────────────────────────────┘
 ```
 
